@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+}
+
+body {
+    background-color: #f4e1d2; /* Light peach */
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading h1 {
+    color: #404040; /* Dark gray */
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+
+.search-bar {
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    background-color: #404040; /* Dark gray */
+    color: #f4e1d2; /* Light peach */
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 100%;
+    margin: 25px auto;
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: #404040; /* Dark gray */
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #f4e1d2; /* Light peach */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.content .inner-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #404040; /* Dark gray */
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.recipe-details {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ingredients,
+.instructions {
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.ingredients h4,
+.instructions h4 {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.video {
+    max-width: 100%;
+    margin: 3rem auto;
+}
+
+.indexContainer {
+    display: flex;
+    margin: 2.5rem 0;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.numBox {
+    width: 40px;
+    height: 40px;
+    background-color: #404040; /* Dark gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4e1d2; /* Light peach */
+    margin: 0 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
