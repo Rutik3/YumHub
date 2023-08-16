@@ -18,40 +18,14 @@ YumHub is a responsive food recipe web application built using React functional 
 
 - MealDB API: YumHub fetches data from the MealDB API to display information about various dishes, including ingredients and instructions.
 
-## Getting Started
+## Usage
 
-To run YumHub locally on your machine, follow these steps:
+To use YumHub, follow these simple steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/yumhub.git
-   ```
+- Search for Dishes: On the homepage, you'll find a search bar. Enter the name of the dish you're interested in and press Enter or click the search button.
 
-2. Navigate to the project directory:
-   ```bash
-   cd yumhub
-   ```
+- Explore Dish Details: Once you've searched for a dish, you'll be presented with a list of results. Click on a dish to view more details, including ingredients and cooking instructions.
 
-3. Install dependencies using your preferred package manager:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+- Watch Recipe Videos: In the dish details page, you'll find an embedded YouTube video. Click on the video thumbnail to watch a recipe tutorial or cooking demonstration related to the dish.
 
-4. Obtain API Key:
-   - Visit [MealDB API](https://www.themealdb.com/api.php) and sign up for an API key.
-   - Copy the API key and replace `"YOUR_API_KEY"` in the code with your actual API key.
-
-5. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-6. Open your browser and navigate to `http://localhost:3000` to use YumHub.
-
-## Contributing
-
-Contributions to YumHub are welcome! If you find any bugs, have suggestions for improvements, or want to add new features, feel free to create a pull request.
+- Navigation: You can easily navigate between different sections of the app using the navigation menu at the top. Home will take you back to the search page.
